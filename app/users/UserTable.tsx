@@ -23,7 +23,7 @@ const UserTable = async ({ sortOrder }: Props) => {
   );
 
   return (
-    <table className="table table-bordered select-none text-black font-bold">
+    <table className="table table-bordered select-none font-bold">
       <thead>
         <tr>
           <th>

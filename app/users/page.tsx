@@ -8,7 +8,7 @@ interface Props{
 
 const UsersPage = async ({ searchParams: {sortOrder}}: Props) => {
   return (
-    <div className="p-5 text-black">
+    <div className="p-5">
       <h1>Hello World</h1>
       <p>{new Date().toLocaleTimeString()}</p>
       <UserTable sortOrder={sortOrder} />
